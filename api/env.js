@@ -3,7 +3,7 @@ export function getEnv() {
     MONGO_URI,
     JWT_SECRET,
     XENDIT_SECRET_KEY,
-    FRONTEND_URL, 
+    FRONTEND_URL,
     CORS_ORIGIN,  
   } = process.env;
 

@@ -13,12 +13,34 @@ const { MONGO_URI, JWT_SECRET, XENDIT_SECRET_KEY, FRONTEND_URL, CORS_ORIGIN } = 
 
 app.use(express.json());
 
-app.use(
-  cors({
-    origin: CORS_ORIGIN || FRONTEND_URL,
-    credentials: true,
-  })
+const allowedOrigins = new Set(
+  [
+    CORS_ORIGIN,
+    FRONTEND_URL,
+    "http://localhost:5173",
+  ].filter(Boolean)
 );
+
+const corsOptionsDelegate = (req, cb) => {
+  const origin = req.headers.origin || "";
+  if (!origin) return cb(null, { origin: false });
+  const isAllowed = allowedOrigins.has(origin);
+  cb(null, {
+    origin: isAllowed,
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    optionsSuccessStatus: 204,
+  });
+};
+
+app.use((req, res, next) => {
+  res.setHeader("Vary", "Origin");
+  next();
+});
+
+app.use(cors(corsOptionsDelegate));
+app.options("*", cors(corsOptionsDelegate));
 
 app.use(async (_req, _res, next) => {
   await connectDB(MONGO_URI);
@@ -35,7 +57,7 @@ const authMiddleware = (req, res, next) => {
     req.username = decoded.username;
     req.role = decoded.role;
     next();
-  } catch (err) {
+  } catch {
     return res.status(401).json({ error: "Invalid token" });
   }
 };
@@ -51,7 +73,7 @@ const adminOnly = (req, res, next) => {
     req.username = decoded.username;
     req.role = decoded.role;
     next();
-  } catch (err) {
+  } catch {
     return res.status(401).json({ error: "Invalid token" });
   }
 };
@@ -138,7 +160,11 @@ app.post("/login", async (req, res) => {
     if (!user) return res.status(401).json({ error: "User tidak ditemukan" });
     const match = await user.comparePassword(password);
     if (!match) return res.status(401).json({ error: "Password salah" });
-    const token = jwt.sign({ id: user._id, username: user.username, role: user.role }, JWT_SECRET, { expiresIn: "7d" });
+    const token = jwt.sign(
+      { id: user._id, username: user.username, role: user.role },
+      JWT_SECRET,
+      { expiresIn: "7d" }
+    );
     res.json({
       message: "Login successful",
       token,
