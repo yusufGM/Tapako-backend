@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "Nike Model 001",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+001",
+    "price": 1527150,
+    "description": "Nike casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 002",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+002",
+    "price": 2976705,
+    "description": "Adidas casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 003",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+003",
+    "price": 1475850,
+    "description": "Nike casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 004",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+004",
+    "price": 2971559,
+    "description": "Adidas high heels with comfortable design for male.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 005",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+005",
+    "price": 1927114,
+    "description": "Nike boots with comfortable design for unisex.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 006",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+006",
+    "price": 889004,
+    "description": "Adidas boots with comfortable design for female.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 007",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+007",
+    "price": 682244,
+    "description": "Nike minimalist shoes with comfortable design for female.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 008",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+008",
+    "price": 2016807,
+    "description": "Nike high heels with comfortable design for male.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 009",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+009",
+    "price": 1713781,
+    "description": "Nike casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 010",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+010",
+    "price": 2401740,
+    "description": "Adidas casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 011",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+011",
+    "price": 1619786,
+    "description": "Adidas minimalist shoes with comfortable design for female.",
+    "category": "Minimalist Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 012",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+012",
+    "price": 2091551,
+    "description": "Adidas boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 013",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+013",
+    "price": 634638,
+    "description": "Adidas minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Kunky Model 014",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+014",
+    "price": 2878925,
+    "description": "Kunky minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 015",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+015",
+    "price": 1099246,
+    "description": "Adidas high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 016",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+016",
+    "price": 2951931,
+    "description": "Adidas boots with comfortable design for unisex.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 017",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+017",
+    "price": 2637108,
+    "description": "Kunky minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 018",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+018",
+    "price": 1171013,
+    "description": "Nike casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 019",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+019",
+    "price": 2719266,
+    "description": "Nike high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 020",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+020",
+    "price": 1926799,
+    "description": "Nike casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 021",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+021",
+    "price": 513611,
+    "description": "New Balance high heels with comfortable design for male.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 022",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+022",
+    "price": 2629292,
+    "description": "Adidas casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 023",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+023",
+    "price": 1859609,
+    "description": "Adidas minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 024",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+024",
+    "price": 1504335,
+    "description": "Nike casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 025",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+025",
+    "price": 790298,
+    "description": "Adidas casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 026",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+026",
+    "price": 1611728,
+    "description": "Adidas high heels with comfortable design for unisex.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 027",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+027",
+    "price": 2173494,
+    "description": "Adidas boots with comfortable design for unisex.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 028",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+028",
+    "price": 1442448,
+    "description": "Kunky high heels with comfortable design for male.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "New Balance Model 029",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+029",
+    "price": 2968096,
+    "description": "New Balance casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 030",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+030",
+    "price": 1460251,
+    "description": "Nike casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 031",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+031",
+    "price": 1668018,
+    "description": "Nike minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 032",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+032",
+    "price": 1519204,
+    "description": "Adidas boots with comfortable design for unisex.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 033",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+033",
+    "price": 2307959,
+    "description": "Kunky boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Kunky Model 034",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+034",
+    "price": 912794,
+    "description": "Kunky high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Kunky Model 035",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+035",
+    "price": 1303587,
+    "description": "Kunky minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Kunky Model 036",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+036",
+    "price": 1668303,
+    "description": "Kunky boots with comfortable design for female.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 037",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+037",
+    "price": 712182,
+    "description": "Adidas casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 038",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+038",
+    "price": 2536926,
+    "description": "Nike boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 039",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+039",
+    "price": 2089528,
+    "description": "Adidas high heels with comfortable design for male.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Kunky Model 040",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+040",
+    "price": 2274221,
+    "description": "Kunky minimalist shoes with comfortable design for female.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 041",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+041",
+    "price": 745296,
+    "description": "Adidas boots with comfortable design for female.",
+    "category": "Boots",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "New Balance Model 042",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+042",
+    "price": 2609107,
+    "description": "New Balance casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 043",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+043",
+    "price": 2995758,
+    "description": "Nike casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 044",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+044",
+    "price": 2928162,
+    "description": "Adidas high heels with comfortable design for male.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 045",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+045",
+    "price": 1593730,
+    "description": "Nike high heels with comfortable design for unisex.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 046",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+046",
+    "price": 1048943,
+    "description": "New Balance boots with comfortable design for female.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 047",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+047",
+    "price": 2422188,
+    "description": "Kunky minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 048",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+048",
+    "price": 1055563,
+    "description": "Nike boots with comfortable design for unisex.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 049",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+049",
+    "price": 1161638,
+    "description": "Nike boots with comfortable design for female.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 050",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+050",
+    "price": 934473,
+    "description": "New Balance casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 051",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+051",
+    "price": 1642311,
+    "description": "New Balance casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 052",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+052",
+    "price": 2619839,
+    "description": "Adidas minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 053",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+053",
+    "price": 1660480,
+    "description": "New Balance casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 054",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+054",
+    "price": 1177723,
+    "description": "Nike minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 055",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+055",
+    "price": 1125178,
+    "description": "Kunky casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "New Balance Model 056",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+056",
+    "price": 675442,
+    "description": "New Balance boots with comfortable design for female.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "New Balance Model 057",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+057",
+    "price": 1546603,
+    "description": "New Balance casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "New Balance Model 058",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+058",
+    "price": 1492948,
+    "description": "New Balance high heels with comfortable design for unisex.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 059",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+059",
+    "price": 1893286,
+    "description": "Adidas high heels with comfortable design for male.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 060",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+060",
+    "price": 2104496,
+    "description": "Adidas minimalist shoes with comfortable design for male.",
+    "category": "Minimalist Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Kunky Model 061",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+061",
+    "price": 1966573,
+    "description": "Kunky boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 062",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+062",
+    "price": 2171287,
+    "description": "Adidas boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "New Balance Model 063",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+063",
+    "price": 2636602,
+    "description": "New Balance casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 064",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+064",
+    "price": 1248967,
+    "description": "New Balance casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 065",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+065",
+    "price": 1949916,
+    "description": "Nike casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 066",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+066",
+    "price": 1568383,
+    "description": "Kunky casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Kunky Model 067",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+067",
+    "price": 2027655,
+    "description": "Kunky casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 068",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+068",
+    "price": 1022716,
+    "description": "Nike minimalist shoes with comfortable design for unisex.",
+    "category": "Minimalist Shoes",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 069",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+069",
+    "price": 1740067,
+    "description": "New Balance high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 070",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+070",
+    "price": 1229923,
+    "description": "Adidas high heels with comfortable design for unisex.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 071",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+071",
+    "price": 1381570,
+    "description": "Kunky casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 072",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+072",
+    "price": 1396328,
+    "description": "New Balance high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 073",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+073",
+    "price": 891694,
+    "description": "Adidas casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 074",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+074",
+    "price": 602447,
+    "description": "New Balance boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 075",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+075",
+    "price": 2410153,
+    "description": "Adidas high heels with comfortable design for unisex.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 076",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+076",
+    "price": 1523344,
+    "description": "Adidas high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 077",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+077",
+    "price": 1237722,
+    "description": "Nike casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 078",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+078",
+    "price": 1059264,
+    "description": "Nike boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 079",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+079",
+    "price": 2797941,
+    "description": "New Balance high heels with comfortable design for unisex.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 080",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+080",
+    "price": 1536998,
+    "description": "Adidas high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 081",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+081",
+    "price": 824988,
+    "description": "Kunky boots with comfortable design for female.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 082",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+082",
+    "price": 2765562,
+    "description": "Adidas minimalist shoes with comfortable design for female.",
+    "category": "Minimalist Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Adidas Model 083",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+083",
+    "price": 1140911,
+    "description": "Adidas boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Nike Model 084",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+084",
+    "price": 2775876,
+    "description": "Nike high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 085",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+085",
+    "price": 2133584,
+    "description": "Kunky casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 086",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+086",
+    "price": 1752472,
+    "description": "Kunky high heels with comfortable design for male.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 087",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+087",
+    "price": 1644773,
+    "description": "Kunky boots with comfortable design for female.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Kunky Model 088",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+088",
+    "price": 2195827,
+    "description": "Kunky casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 089",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+089",
+    "price": 2152640,
+    "description": "Kunky boots with comfortable design for unisex.",
+    "category": "Boots",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 090",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+090",
+    "price": 1262226,
+    "description": "Nike high heels with comfortable design for male.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 091",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+091",
+    "price": 2407147,
+    "description": "New Balance high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "New Balance Model 092",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+092",
+    "price": 1558103,
+    "description": "New Balance high heels with comfortable design for female.",
+    "category": "High Heels",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 093",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+093",
+    "price": 1967840,
+    "description": "Kunky casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 094",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+094",
+    "price": 1336179,
+    "description": "Nike casual shoes with comfortable design for male.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Adidas Model 095",
+    "imgSrc": "https://placehold.co/600x600?text=Adidas+Model+095",
+    "price": 979784,
+    "description": "Adidas boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": true,
+    "gender": "male",
+    "ageGroup": "child"
+  },
+  {
+    "name": "Kunky Model 096",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+096",
+    "price": 980385,
+    "description": "Kunky minimalist shoes with comfortable design for female.",
+    "category": "Minimalist Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "New Balance Model 097",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+097",
+    "price": 1808443,
+    "description": "New Balance casual shoes with comfortable design for unisex.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "unisex",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Kunky Model 098",
+    "imgSrc": "https://placehold.co/600x600?text=Kunky+Model+098",
+    "price": 927405,
+    "description": "Kunky boots with comfortable design for male.",
+    "category": "Boots",
+    "isNew": false,
+    "gender": "male",
+    "ageGroup": "adult"
+  },
+  {
+    "name": "Nike Model 099",
+    "imgSrc": "https://placehold.co/600x600?text=Nike+Model+099",
+    "price": 2054286,
+    "description": "Nike casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": true,
+    "gender": "female",
+    "ageGroup": "child"
+  },
+  {
+    "name": "New Balance Model 100",
+    "imgSrc": "https://placehold.co/600x600?text=New+Balance+Model+100",
+    "price": 942662,
+    "description": "New Balance casual shoes with comfortable design for female.",
+    "category": "Casual Shoes",
+    "isNew": false,
+    "gender": "female",
+    "ageGroup": "child"
+  }
+]
