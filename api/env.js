@@ -4,7 +4,7 @@ export function getEnv() {
     JWT_SECRET,
     XENDIT_SECRET_KEY,
     FRONTEND_URL,
-    CORS_ORIGIN,  
+    CORS_ORIGIN,
   } = process.env;
 
   if (!MONGO_URI) throw new Error("MONGO_URI is required");
