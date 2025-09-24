@@ -1,4 +1,8 @@
 {
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index.js" }
+  ],
   "headers": [
     {
       "source": "/api/(.*)",
@@ -8,8 +12,5 @@
         { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
       ]
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/api/index.js" }
   ]
 }
