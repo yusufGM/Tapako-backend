@@ -1,8 +1,4 @@
 {
-  "version": 2,
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/index.js" }
-  ],
   "headers": [
     {
       "source": "/api/(.*)",
@@ -12,5 +8,8 @@
         { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
       ]
     }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/index.js" }
   ]
 }
