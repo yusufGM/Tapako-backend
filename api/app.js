@@ -81,6 +81,10 @@ const adminOnly = (req, res, next) => {
 app.get("/test", (_req, res) => {
   res.json({ message: "API is running (Vercel serverless)" });
 });
+app.use((req, _res, next) => {
+  if (req.url.startsWith("/api/")) req.url = req.url.slice(4); 
+  next();
+});
 
 app.get("/items", async (_req, res) => {
   try {
