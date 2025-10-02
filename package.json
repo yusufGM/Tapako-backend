@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Backend Express + MongoDB Atlas + Xendit (Vercel-ready)",
   "type": "module",
-  "main": "api/index.js",
+  "main": "api/app.js",
   "scripts": {
-    "dev": "nodemon api/index.js",
-    "start": "node api/index.js",
+    "dev": "nodemon api/app.js",
+    "start": "node api/app.js",
     "vercel-build": "echo \"No build step\""
   },
   "dependencies": {
@@ -20,7 +20,5 @@
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
-  "engines": {
-    "node": ">=20"
-  }
+  "engines": { "node": ">=20" }
 }
