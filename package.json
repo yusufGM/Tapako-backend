@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "nodemon api/app.js",
     "start": "node api/app.js",
-    "vercel-build": "echo \"No build step\""
+    "vercel-build": "echo \"No build step\"",
+    "create-admin": "node api/create-admin.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
@@ -15,10 +16,13 @@
     "dotenv": "^16.4.5",
     "express": "4.19.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.18.2"
+    "mongoose": "^8.18.2",
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }

@@ -97,20 +97,52 @@ app.delete("/items/:id", adminOnly, async (req, res) => {
   } catch (err) { res.status(500).json({ error: "Gagal hapus", detail: err.message }); }
 });
 
-app.get("/orders", adminOnly, async (_req, res) => {
-  try { res.json(await Order.find().sort({ createdAt: -1 }).lean()); }
-  catch (err) { res.status(500).json({ error: "Gagal ambil orders", detail: err.message }); }
+app.get("/orders", adminOnly, async (req, res) => {
+  try {
+    const { from, to, username, q } = req.query;
+
+    const filter = {};
+    const nameQuery = username || q;
+    if (nameQuery) {
+      filter.username = { $regex: String(nameQuery), $options: "i" };
+    }
+
+    if (from || to) {
+      const range = {};
+      if (from) {
+        const d = new Date(from);
+        range.$gte = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 0, 0, 0, 0);
+      }
+      if (to) {
+        const d = new Date(to);
+        range.$lte = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 23, 59, 59, 999);
+      }
+      filter.createdAt = range;
+    }
+
+    const orders = await Order.find(filter).sort({ createdAt: -1 }).lean();
+    res.json(orders);
+  } catch (err) {
+    res.status(500).json({ error: "Gagal ambil orders", detail: err.message });
+  }
 });
+
 
 app.post("/signup", async (req, res) => {
   try {
-    const { username, email, password, role = "user" } = req.body;
-    if (!username || !password) return res.status(400).json({ error: "Username dan password harus diisi" });
-    const exists = await User.findOne({ $or: [{ username }, { email }] });
-    if (exists) return res.status(400).json({ error: "Username atau email sudah digunakan" });
-    await User.create({ username, email, password, role });
+    const { username, email, password } = req.body;
+    if (!username || !password) {
+      return res.status(400).json({ error: "Username dan password harus diisi" });
+    }
+    const existing = await User.findOne({ $or: [{ username }, { email }] });
+    if (existing) {
+      return res.status(400).json({ error: "Username atau email sudah digunakan" });
+    }
+    await User.create({ username, email, password, role: "user" });
     res.status(201).json({ message: "User registered" });
-  } catch (err) { res.status(500).json({ error: "Server error", detail: err.message }); }
+  } catch (err) {
+    res.status(500).json({ error: "Server error", detail: err.message });
+  }
 });
 app.post("/login", async (req, res) => {
   try {
