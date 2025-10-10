@@ -1,8 +1,18 @@
 import express from "express";
 import Item from "../models/Item.js";
 import ChangeLog from "../models/ChangeLog.js";
+import User from "../models/User.js";
 
 const r = express.Router();
+
+r.get("/stats/customers", async (_req, res) => {
+  try {
+    const totalUsers = await User.countDocuments({ role: "user" });
+    res.json({ totalUsers });
+  } catch (e) {
+    res.status(500).json({ error: "Gagal hitung user", detail: e.message });
+  }
+});
 
 r.get("/items", async (req, res) => {
   try {
