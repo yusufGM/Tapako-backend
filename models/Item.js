@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+import auditSoftDelete from "./plugins/auditSoftDelete.js";
 const itemSchema = new mongoose.Schema(
   {
     name: { type: String, required: true },
@@ -9,9 +9,9 @@ const itemSchema = new mongoose.Schema(
     category: String,
     isNew: { type: Boolean, default: false },
     gender: String,
-    ageGroup: String,
+    ageGroup: String
   },
   { timestamps: true }
 );
-
+itemSchema.plugin(auditSoftDelete);
 export default mongoose.models.Item || mongoose.model("Item", itemSchema);
