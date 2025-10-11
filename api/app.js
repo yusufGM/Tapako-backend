@@ -53,11 +53,17 @@ const adminOnly = (req, res, next) => {
 
 const attachActor = (req, _res, next) => { req.actor = req.username || "system"; next(); };
 
+app.get("/api/health", (_req, res) => res.json({ ok: true, time: new Date().toISOString() }));
 app.get("/api/test", (_req, res) => res.json({ message: "API is running" }));
 
 app.get("/api/items", async (_req, res) => {
-  try { res.json(await Item.find().lean()); }
-  catch (err) { res.status(500).json({ error: "Gagal ambil data", detail: err.message }); }
+  try {
+    const items = await Item.find().lean();
+    res.json(items);
+  } catch (err) {
+    console.error("GET /api/items error:", err);
+    res.status(500).json({ error: "Gagal ambil data", detail: err?.message || String(err) });
+  }
 });
 
 app.get("/api/items/:id", async (req, res) => {
@@ -65,7 +71,9 @@ app.get("/api/items/:id", async (req, res) => {
     const product = await Item.findById(req.params.id).lean();
     if (!product) return res.status(404).json({ message: "Produk tidak ditemukan" });
     res.json(product);
-  } catch (err) { res.status(500).json({ error: "Gagal ambil data", detail: err.message }); }
+  } catch (err) {
+    res.status(500).json({ error: "Gagal ambil data", detail: err.message });
+  }
 });
 
 app.post("/api/signup", async (req, res) => {
@@ -76,7 +84,9 @@ app.post("/api/signup", async (req, res) => {
     if (existing) return res.status(400).json({ error: "Username atau email sudah digunakan" });
     await User.create({ username, email, password, role: "user" });
     res.status(201).json({ message: "User registered" });
-  } catch (err) { res.status(500).json({ error: "Server error", detail: err.message }); }
+  } catch (err) {
+    res.status(500).json({ error: "Server error", detail: err.message });
+  }
 });
 
 app.post("/api/login", async (req, res) => {
@@ -89,7 +99,9 @@ app.post("/api/login", async (req, res) => {
     if (!ok) return res.status(401).json({ error: "Password salah" });
     const token = jwt.sign({ id: user._id, username: user.username, role: user.role }, JWT_SECRET, { expiresIn: "7d" });
     res.json({ message: "Login successful", token, user: { id: user._id, username: user.username, email: user.email, role: user.role } });
-  } catch (err) { res.status(500).json({ error: "Server error", detail: err.message }); }
+  } catch (err) {
+    res.status(500).json({ error: "Server error", detail: err.message });
+  }
 });
 
 app.post("/api/checkout", authMiddleware, async (req, res) => {
@@ -165,7 +177,9 @@ app.get("/api/admin/orders", adminOnly, async (req, res) => {
     }
     const orders = await Order.find(filter).sort({ createdAt: -1 }).lean();
     res.json(orders);
-  } catch (err) { res.status(500).json({ error: "Gagal ambil orders", detail: err.message }); }
+  } catch (err) {
+    res.status(500).json({ error: "Gagal ambil orders", detail: err.message });
+  }
 });
 
 app.use("/api/admin", adminOnly, attachActor, adminRoutes);
